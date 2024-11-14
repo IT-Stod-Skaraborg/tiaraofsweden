@@ -741,7 +741,7 @@ section.slider {
 
 #jobb {
   margin-top: 60px;
-  background: url('/img/jobb-bg.jpg');
+  background: url('../img/jobb-bg.jpg');
   color: #fff;
   padding: 100px 30px;
   background-repeat: no-repeat;
