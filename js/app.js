@@ -1,6 +1,6 @@
 import $ from "jquery"
 
-(function () {
+$(document).ready(function ($) {
   $('#mobile-menu-toggle').on('click', function (e) {
     $('header nav').toggleClass('open');
   });
@@ -69,4 +69,4 @@ import $ from "jquery"
 
   setTimeout( scheduleNext, 5000 );
 
-})();
+});
